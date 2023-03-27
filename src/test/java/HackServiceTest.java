@@ -12,7 +12,7 @@ public class HackServiceTest {
         int actual = hacker.remain(900);
         int expected = 100;
 
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -20,7 +20,7 @@ public class HackServiceTest {
         int actual = hacker.remain(999);
         int expected = 1;
 
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -28,7 +28,7 @@ public class HackServiceTest {
         int actual = hacker.remain(1);
         int expected = 999;
 
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -36,7 +36,7 @@ public class HackServiceTest {
         int actual = hacker.remain(2222);
         int expected = 778;
 
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test
@@ -44,7 +44,7 @@ public class HackServiceTest {
         int actual = hacker.remain(1000);
         int expected = 0;
 
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(expected, actual);
     }
 
 }
